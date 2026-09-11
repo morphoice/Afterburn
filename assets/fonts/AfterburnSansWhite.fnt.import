@@ -1,0 +1,17 @@
+[remap]
+
+importer="font_data_bmfont"
+type="FontFile"
+uid="uid://c4akuasxjs25a"
+path="res://.godot/imported/AfterburnSansWhite.fnt-d1530c9e94ef2479a5933793ce9b87af.fontdata"
+
+[deps]
+
+source_file="res://assets/fonts/AfterburnSansWhite.fnt"
+dest_files=["res://.godot/imported/AfterburnSansWhite.fnt-d1530c9e94ef2479a5933793ce9b87af.fontdata"]
+
+[params]
+
+fallbacks=[]
+compress=true
+scaling_mode=2

@@ -1,0 +1,307 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/tomcat.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/sprites/tomcat.png" id="tex"]
+
+[sub_resource type="AtlasTexture" id="tc_U2C_0"]
+atlas = ExtResource("tex")
+region = Rect2(0, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_U2C_1"]
+atlas = ExtResource("tex")
+region = Rect2(240, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_U2C_2"]
+atlas = ExtResource("tex")
+region = Rect2(480, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_U2R1_0"]
+atlas = ExtResource("tex")
+region = Rect2(720, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_U2R1_1"]
+atlas = ExtResource("tex")
+region = Rect2(960, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_U2R1_2"]
+atlas = ExtResource("tex")
+region = Rect2(1200, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_U2R2_0"]
+atlas = ExtResource("tex")
+region = Rect2(1440, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_U2R2_1"]
+atlas = ExtResource("tex")
+region = Rect2(1680, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_U2R2_2"]
+atlas = ExtResource("tex")
+region = Rect2(1920, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_U1R2_0"]
+atlas = ExtResource("tex")
+region = Rect2(2160, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_U1R2_1"]
+atlas = ExtResource("tex")
+region = Rect2(2400, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_U1R2_2"]
+atlas = ExtResource("tex")
+region = Rect2(2640, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_U1R1_0"]
+atlas = ExtResource("tex")
+region = Rect2(2880, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_U1R1_1"]
+atlas = ExtResource("tex")
+region = Rect2(3120, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_U1R1_2"]
+atlas = ExtResource("tex")
+region = Rect2(3360, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_U1C_0"]
+atlas = ExtResource("tex")
+region = Rect2(3600, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_U1C_1"]
+atlas = ExtResource("tex")
+region = Rect2(3840, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_U1C_2"]
+atlas = ExtResource("tex")
+region = Rect2(4080, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_CC_0"]
+atlas = ExtResource("tex")
+region = Rect2(4320, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_CC_1"]
+atlas = ExtResource("tex")
+region = Rect2(4560, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_CC_2"]
+atlas = ExtResource("tex")
+region = Rect2(4800, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_CR1_0"]
+atlas = ExtResource("tex")
+region = Rect2(5040, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_CR1_1"]
+atlas = ExtResource("tex")
+region = Rect2(5280, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_CR1_2"]
+atlas = ExtResource("tex")
+region = Rect2(5520, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_CR2_0"]
+atlas = ExtResource("tex")
+region = Rect2(5760, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_CR2_1"]
+atlas = ExtResource("tex")
+region = Rect2(6000, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_CR2_2"]
+atlas = ExtResource("tex")
+region = Rect2(6240, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_D1R2_0"]
+atlas = ExtResource("tex")
+region = Rect2(6480, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_D1R2_1"]
+atlas = ExtResource("tex")
+region = Rect2(6720, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_D1R2_2"]
+atlas = ExtResource("tex")
+region = Rect2(6960, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_D1R1_0"]
+atlas = ExtResource("tex")
+region = Rect2(7200, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_D1R1_1"]
+atlas = ExtResource("tex")
+region = Rect2(7440, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_D1R1_2"]
+atlas = ExtResource("tex")
+region = Rect2(7680, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_D1C_0"]
+atlas = ExtResource("tex")
+region = Rect2(7920, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_D1C_1"]
+atlas = ExtResource("tex")
+region = Rect2(8160, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_D1C_2"]
+atlas = ExtResource("tex")
+region = Rect2(8400, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_D2C_0"]
+atlas = ExtResource("tex")
+region = Rect2(8640, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_D2C_1"]
+atlas = ExtResource("tex")
+region = Rect2(8880, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_D2C_2"]
+atlas = ExtResource("tex")
+region = Rect2(9120, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_D2R1_0"]
+atlas = ExtResource("tex")
+region = Rect2(9360, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_D2R1_1"]
+atlas = ExtResource("tex")
+region = Rect2(9600, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_D2R1_2"]
+atlas = ExtResource("tex")
+region = Rect2(9840, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_D2R2_0"]
+atlas = ExtResource("tex")
+region = Rect2(10080, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_D2R2_1"]
+atlas = ExtResource("tex")
+region = Rect2(10320, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_D2R2_2"]
+atlas = ExtResource("tex")
+region = Rect2(10560, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_D3C_0"]
+atlas = ExtResource("tex")
+region = Rect2(10800, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_D3R1_0"]
+atlas = ExtResource("tex")
+region = Rect2(11040, 0, 240, 100)
+
+[sub_resource type="AtlasTexture" id="tc_D3R2_0"]
+atlas = ExtResource("tex")
+region = Rect2(11280, 0, 240, 100)
+
+; Pose grid from the aseprite tags. TomcatAnimator selects these by two ints:
+; the vertical step from the angle of attack and the lateral step from the
+; crosshair. D3C, D3R1 and D3R2 have no transition into them - the vertical
+; parameter only ever reaches -2 - but they are kept as authored.
+[sub_resource type="SpriteFrames" id="frames"]
+animations = [{
+"frames": [{"duration": 1.0, "texture": SubResource("tc_U2C_0")}, {"duration": 1.0, "texture": SubResource("tc_U2C_1")}, {"duration": 1.0, "texture": SubResource("tc_U2C_2")}],
+"loop": true,
+"name": &"U2C",
+"speed": 12.0482
+}, {
+"frames": [{"duration": 1.0, "texture": SubResource("tc_U2R1_0")}, {"duration": 1.0, "texture": SubResource("tc_U2R1_1")}, {"duration": 1.0, "texture": SubResource("tc_U2R1_2")}],
+"loop": true,
+"name": &"U2R1",
+"speed": 12.0482
+}, {
+"frames": [{"duration": 1.0, "texture": SubResource("tc_U2R2_0")}, {"duration": 1.0, "texture": SubResource("tc_U2R2_1")}, {"duration": 1.0, "texture": SubResource("tc_U2R2_2")}],
+"loop": true,
+"name": &"U2R2",
+"speed": 12.0482
+}, {
+"frames": [{"duration": 1.0, "texture": SubResource("tc_U1R2_0")}, {"duration": 1.0, "texture": SubResource("tc_U1R2_1")}, {"duration": 1.0, "texture": SubResource("tc_U1R2_2")}],
+"loop": true,
+"name": &"U1R2",
+"speed": 12.0482
+}, {
+"frames": [{"duration": 1.0, "texture": SubResource("tc_U1R1_0")}, {"duration": 1.0, "texture": SubResource("tc_U1R1_1")}, {"duration": 1.0, "texture": SubResource("tc_U1R1_2")}],
+"loop": true,
+"name": &"U1R1",
+"speed": 12.0482
+}, {
+"frames": [{"duration": 1.0, "texture": SubResource("tc_U1C_0")}, {"duration": 1.0, "texture": SubResource("tc_U1C_1")}, {"duration": 1.0, "texture": SubResource("tc_U1C_2")}],
+"loop": true,
+"name": &"U1C",
+"speed": 12.0482
+}, {
+"frames": [{"duration": 1.0, "texture": SubResource("tc_CC_0")}, {"duration": 1.0, "texture": SubResource("tc_CC_1")}, {"duration": 1.0, "texture": SubResource("tc_CC_2")}],
+"loop": true,
+"name": &"CC",
+"speed": 12.0482
+}, {
+"frames": [{"duration": 1.0, "texture": SubResource("tc_CR1_0")}, {"duration": 1.0, "texture": SubResource("tc_CR1_1")}, {"duration": 1.0, "texture": SubResource("tc_CR1_2")}],
+"loop": true,
+"name": &"CR1",
+"speed": 12.0482
+}, {
+"frames": [{"duration": 1.0, "texture": SubResource("tc_CR2_0")}, {"duration": 1.0, "texture": SubResource("tc_CR2_1")}, {"duration": 1.0, "texture": SubResource("tc_CR2_2")}],
+"loop": true,
+"name": &"CR2",
+"speed": 12.0482
+}, {
+"frames": [{"duration": 1.0, "texture": SubResource("tc_D1R2_0")}, {"duration": 1.0, "texture": SubResource("tc_D1R2_1")}, {"duration": 1.0, "texture": SubResource("tc_D1R2_2")}],
+"loop": true,
+"name": &"D1R2",
+"speed": 12.0482
+}, {
+"frames": [{"duration": 1.0, "texture": SubResource("tc_D1R1_0")}, {"duration": 1.0, "texture": SubResource("tc_D1R1_1")}, {"duration": 1.0, "texture": SubResource("tc_D1R1_2")}],
+"loop": true,
+"name": &"D1R1",
+"speed": 12.0482
+}, {
+"frames": [{"duration": 1.0, "texture": SubResource("tc_D1C_0")}, {"duration": 1.0, "texture": SubResource("tc_D1C_1")}, {"duration": 1.0, "texture": SubResource("tc_D1C_2")}],
+"loop": true,
+"name": &"D1C",
+"speed": 12.0482
+}, {
+"frames": [{"duration": 1.0, "texture": SubResource("tc_D2C_0")}, {"duration": 1.0, "texture": SubResource("tc_D2C_1")}, {"duration": 1.0, "texture": SubResource("tc_D2C_2")}],
+"loop": true,
+"name": &"D2C",
+"speed": 12.0482
+}, {
+"frames": [{"duration": 1.0, "texture": SubResource("tc_D2R1_0")}, {"duration": 1.0, "texture": SubResource("tc_D2R1_1")}, {"duration": 1.0, "texture": SubResource("tc_D2R1_2")}],
+"loop": true,
+"name": &"D2R1",
+"speed": 12.0482
+}, {
+"frames": [{"duration": 1.0, "texture": SubResource("tc_D2R2_0")}, {"duration": 1.0, "texture": SubResource("tc_D2R2_1")}, {"duration": 1.0, "texture": SubResource("tc_D2R2_2")}],
+"loop": true,
+"name": &"D2R2",
+"speed": 12.0482
+}, {
+"frames": [{"duration": 1.0, "texture": SubResource("tc_D3C_0")}],
+"loop": true,
+"name": &"D3C",
+"speed": 12.0482
+}, {
+"frames": [{"duration": 1.0, "texture": SubResource("tc_D3R1_0")}],
+"loop": true,
+"name": &"D3R1",
+"speed": 12.0482
+}, {
+"frames": [{"duration": 1.0, "texture": SubResource("tc_D3R2_0")}],
+"loop": true,
+"name": &"D3R2",
+"speed": 12.0482
+}]
+
+[node name="Tomcat" type="Node2D" groups=["player"]]
+script = ExtResource("1")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("frames")
+animation = &"CC"
+autoplay = "CC"
+
+[node name="Engine" type="AudioStreamPlayer" parent="."]
+
+[node name="Gun" type="AudioStreamPlayer" parent="."]
+
+[node name="Warning" type="AudioStreamPlayer" parent="."]

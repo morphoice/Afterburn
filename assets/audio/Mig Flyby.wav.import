@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cxfdq15xm8oje"
+path="res://.godot/imported/Mig Flyby.wav-c6f250679fa23194069111372fe9b922.sample"
+
+[deps]
+
+source_file="res://assets/audio/Mig Flyby.wav"
+dest_files=["res://.godot/imported/Mig Flyby.wav-c6f250679fa23194069111372fe9b922.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

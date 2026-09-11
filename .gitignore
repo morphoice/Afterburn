@@ -1,0 +1,15 @@
+# Godot editor cache and imported assets
+.godot/
+/android/
+
+# Exported builds
+build/
+*.x86_64
+*.exe
+*.dmg
+*.apk
+
+# macOS / editor cruft
+.DS_Store
+._*
+*.bak

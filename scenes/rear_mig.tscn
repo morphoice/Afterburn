@@ -1,0 +1,83 @@
+[gd_scene load_steps=15 format=3]
+
+[ext_resource type="Script" path="res://scripts/rear_mig.gd" id="1"]
+[ext_resource type="Script" path="res://scripts/explosion.gd" id="2"]
+[ext_resource type="Texture2D" path="res://assets/sprites/Mig28.png" id="tex"]
+[ext_resource type="Texture2D" path="res://assets/sprites/explosion1.png" id="ex"]
+
+[sub_resource type="CircleShape2D" id="hitbox"]
+radius = 40.0
+
+; The prefab's sprite fileID 6167915509708134240 is Mig28_Frame_0: the imported
+; artifact's object table places it at the object whose name string is
+; "Mig28_Frame_0", carrying rect 643,336,254,128 and spriteID fad2cb07…, which
+; is Frame_0's entry in Mig28.aseprite.meta. Frame 0 of the sheet.
+[sub_resource type="AtlasTexture" id="mig_still"]
+atlas = ExtResource("tex")
+region = Rect2(0, 0, 320, 156)
+
+[sub_resource type="AtlasTexture" id="x_0"]
+atlas = ExtResource("ex")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="x_1"]
+atlas = ExtResource("ex")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="x_2"]
+atlas = ExtResource("ex")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="x_3"]
+atlas = ExtResource("ex")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="x_4"]
+atlas = ExtResource("ex")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="x_5"]
+atlas = ExtResource("ex")
+region = Rect2(320, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="x_6"]
+atlas = ExtResource("ex")
+region = Rect2(384, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="x_7"]
+atlas = ExtResource("ex")
+region = Rect2(448, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="x_8"]
+atlas = ExtResource("ex")
+region = Rect2(512, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="x_9"]
+atlas = ExtResource("ex")
+region = Rect2(576, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="ex_frames"]
+animations = [{
+"frames": [{"duration": 1.0, "texture": SubResource("x_0")}, {"duration": 1.0, "texture": SubResource("x_1")}, {"duration": 1.0, "texture": SubResource("x_2")}, {"duration": 1.0, "texture": SubResource("x_3")}, {"duration": 1.0, "texture": SubResource("x_4")}, {"duration": 1.0, "texture": SubResource("x_5")}, {"duration": 1.0, "texture": SubResource("x_6")}, {"duration": 1.0, "texture": SubResource("x_7")}, {"duration": 1.0, "texture": SubResource("x_8")}, {"duration": 1.0, "texture": SubResource("x_9")}],
+"loop": false,
+"name": &"burst",
+"speed": 20.0
+}]
+
+[node name="RearMig" type="Area2D" groups=["enemies"]]
+script = ExtResource("1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("hitbox")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+texture = SubResource("mig_still")
+
+[node name="Explosion2D" type="AnimatedSprite2D" parent="."]
+script = ExtResource("2")
+sprite_frames = SubResource("ex_frames")
+animation = &"burst"
+
+[node name="Flyby" type="AudioStreamPlayer2D" parent="."]
+
+[node name="Explosion" type="AudioStreamPlayer2D" parent="."]
